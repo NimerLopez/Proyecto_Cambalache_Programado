@@ -1,0 +1,311 @@
+body {
+    font-size: 12px;
+    color: #606060;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 30% 10%;
+}
+
+#foto img {
+    margin: auto 100px;
+}
+
+header button {
+    background-color: grey;
+    Font-Size: 11px;
+    width: 80px;
+    height: 30px;
+}
+
+
+header {
+
+    background-color: whitesmoke;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+
+    /*Linea*/
+}
+
+
+#menu>ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 34px;
+    /*Menu*/
+}
+
+#menu>ul>li {
+    display: inline-block;
+}
+
+#menu>ul>li>a {
+    color: black;
+    display: block;
+    padding: 14px 10px;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#submenu {
+    display: none !important;
+}
+
+#subm {
+    display: none !important;
+}
+#l5c{
+    display: none !important;
+}
+
+@media (max-width: 770px) {
+
+    /*Cambio para tablet*/
+    .container {
+        display: grid;
+        grid-template-columns: 40% 30% 30%;
+    }
+}
+
+.inle {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.inle p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+#buscar {
+    width: 240px;
+    height: 30px;
+    text-align: center;
+}
+
+#b2 {
+    width: 100px;
+    height: 30px;
+    Font-Size: 11px;
+    top: 1px;
+}
+
+.seccio1 h3 {
+    text-align: center;
+    Font-Size: 14px;
+    font-weight: bold;
+}
+
+.seccio1 p {
+    text-align: center;
+    padding: 10px;
+}
+
+#f1a {
+    position: relative;
+    text-align: center;
+    display: inline-block
+}
+
+#f2a {
+    position: relative;
+    text-align: center;
+    display: inline-block
+}
+
+#f3a {
+    position: relative;
+    text-align: center;
+    display: inline-block
+}
+
+.seccio1 {
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+}
+
+/*fin seccion1*/
+.seccio2 h1 {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#fs2 {
+    display: inline-block;
+    text-align: right;
+}
+
+#fs2 p {
+    position: relative;
+    right: 100px;
+    text-decoration: none;
+
+}
+
+#fs3 {
+    display: inline-block;
+    text-align: left;
+}
+
+#fs3 p {
+    position: relative;
+    left: 100px;
+    text-decoration: none;
+
+}
+
+.seccio2 {
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+}
+
+/*menu2*/
+
+#menu2 ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    width: 500px;
+    /*Menu*/
+}
+
+#menu2 ul li {
+    display: inline-block;
+}
+
+#menu2 ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#menu2 {
+
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+
+}
+
+@media(max-width: 690px) {
+
+    /*Cambio para telefono*/
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .inle p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #cl1 {
+        display: none !important;
+    }
+
+    #cl2 {
+        display: none !important;
+    }
+    #cl3{
+        display: none !important;
+    }
+    #cl4{
+        display: none !important; 
+    }
+    #boton {
+        display: none;
+    }
+
+    header>.container>#menu>ul>li>a {
+        font-size: 20px;
+    }
+
+    #submenu {
+        background-color: #a19b9b;
+    }
+
+    #subm {
+        display: block !important;
+    }
+
+    #submenu>li a {
+        color: #c95555;
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+
+    }
+
+    #menu li:hover #submenu {
+        display: block !important;
+    }
+
+    #foto img {
+        margin: 0px 0px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    #fs2 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #fs3 {
+        display: inline-block;
+        text-align: center;
+    }
+
+    #fs2 p {
+        position: relative;
+        right: 10px;
+
+    }
+
+    #fs3 p {
+        position: relative;
+        left: 10px;
+
+    }
+
+    #menu2 {
+
+        text-align: center;
+        position: relative;
+        right: 50px;
+    }
+    #l5c{
+        display: block !important;
+    }
+
+}

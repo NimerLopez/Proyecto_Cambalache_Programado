@@ -1,0 +1,267 @@
+html {
+    margin: auto 50px;
+}
+
+body {
+    font-size: 12px;
+    color: #606060;
+}
+
+
+/*menu*/
+.container {
+    display: grid;
+    grid-template-columns: 60% 30% 10%;
+}
+
+
+
+#menu>ul {
+    /*Menu*/
+
+
+    list-style: none;
+    /*Menu*/
+}
+
+#menu>ul>li {
+    display: inline-block;
+}
+
+#menu>ul {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 10px;
+
+}
+
+#menu>ul>li>a {
+
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#submenu {
+    display: none !important;
+}
+
+#foto {
+    margin: auto 100px;
+}
+
+#subm {
+    display: none !important;
+}
+
+#boton button {
+    position: relative;
+    top: 10px;
+}
+
+#boton button {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+    Font-Size: 11px;
+    background-color: rgb(202, 198, 198);
+}
+
+/**/
+
+header {
+    background-color: whitesmoke;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+    /*Linea*/
+
+}
+
+
+
+
+
+
+/*Titulo*/
+#seccion1 {
+    Font-Size: 16px;
+    Font-Weight: Bold;
+    text-align: center;
+    background-color: rgb(212, 211, 211);
+    position: relative;
+    height: 150px;
+    bottom: 20px;
+}
+
+#seccion1 h1 {
+    position: relative;
+    top: 60px;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/*seccion2*/
+.seccion2 {
+    margin: 20px auto;
+    text-align: center;
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+.seccion2 input {
+    width: 340px;
+    height: 30px;
+}
+
+.seccion2 button {
+    font-Size: 11px;
+    width: 140px;
+    height: 40px;
+    background-color: gray;
+
+}
+
+#line {
+    text-decoration: underline;
+}
+
+/*footer*/
+#menu2 ul {
+    /*Menu*/
+    list-style: none;
+    margin: 30px auto;
+    padding: 0;
+    width: 500px;
+
+    /*Menu*/
+}
+
+#menu2 ul li {
+    display: inline-block;
+}
+
+#menu2 ul li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    color: #c95555;
+}
+
+#menu2 {
+
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+
+}
+
+@media (max-width: 770px) {
+    /*ipadmini*/
+
+    /*Cambio para tablet*/
+    .container {
+        display: grid;
+        grid-template-columns: 40% 40% 20%;
+    }
+}
+
+@media (max-width: 690px) {
+
+    /*telefono*/
+    /*Cambio para telefono*/
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #seccion1 {
+        height: 80px;
+    }
+
+    #seccion1 h1 {
+        position: relative;
+        top: 30px;
+
+
+    }
+
+    .inle p {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #cl1 {
+        display: none !important;
+    }
+
+    #cl2 {
+        display: none !important;
+    }
+    #cl3{
+        display: none !important;
+    }
+    #cl4{
+        display: none !important;
+    }
+    #boton {
+        display: none;
+    }
+
+    header>.container>#menu>ul>li>a {
+        font-size: 20px;
+    }
+
+    #submenu {
+        background-color: #a19b9b;
+    }
+
+    #subm {
+        display: block !important;
+    }
+
+    #submenu>li a {
+        color: #c95555;
+        display: block;
+        padding: 5px;
+        text-decoration: none;
+
+    }
+
+    #menu li:hover #submenu {
+        display: block !important;
+    }
+
+    #foto {
+        margin: 0px 0px !important;
+    }
+
+
+
+    .seccion2 input {
+        width: 110px;
+        height: 30px;
+    }
+
+    .seccion2 button {
+        font-Size: 11px;
+        width: 120px;
+        height: 40px;
+        background-color: gray;
+
+    }
+
+    #menu2 {
+        text-align: center;
+        position: relative;
+        right: 100px;
+    }
+
+
+}
